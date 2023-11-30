@@ -11,7 +11,7 @@ from threestudio.models.mesh import Mesh
 from threestudio.utils.typing import *
 
 
-@threestudio.register("obj-mesh")
+@threestudio.register("mesh-fitting-obj-mesh")
 class OBJMesh(BaseExplicitGeometry):
     @dataclass
     class Config(BaseExplicitGeometry.Config):

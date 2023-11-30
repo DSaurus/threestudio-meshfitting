@@ -7,7 +7,7 @@ from threestudio.utils.base import BaseObject
 from threestudio.utils.typing import *
 
 
-@threestudio.register("mesh-guidance")
+@threestudio.register("mesh-fitting-guidance")
 class MeshGuidance(BaseObject):
     @dataclass
     class Config(BaseObject.Config):
