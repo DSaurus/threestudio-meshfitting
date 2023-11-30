@@ -1,5 +1,5 @@
 # threestudio-meshfitting
-A simple extension of threestudio, which enables using neural representation to fit a 3D mesh.
+A simple extension of threestudio, which enables using neural representation to fit a 3D mesh. To use it, please install [ThreeStudio](https://github.com/threestudio-project/threestudio) first and then install this extension in ThreeStudio `custom` directory.
 
 # Installation
 ```
