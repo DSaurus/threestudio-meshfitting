@@ -1,8 +1,7 @@
 from dataclasses import dataclass, field
 
-import torch.nn.functional as F
-
 import threestudio
+import torch.nn.functional as F
 from threestudio.utils.base import BaseObject
 from threestudio.utils.typing import *
 

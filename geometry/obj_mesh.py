@@ -2,10 +2,9 @@ import os
 from dataclasses import dataclass
 
 import numpy as np
+import threestudio
 import torch
 import trimesh
-
-import threestudio
 from threestudio.models.geometry.base import BaseExplicitGeometry, contract_to_unisphere
 from threestudio.models.mesh import Mesh
 from threestudio.utils.typing import *
